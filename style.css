@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* $color-primary: #ff8000; */
+}
+
+
+.page{
+    color: rgb(255, 136, 0);
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(" https://i.postimg.cc/YqFd6KWs/1.jpg") no-repeat ;
+    /* background: ; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.flex{
+    display:flex;
+    /* flex-direction: row; */
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.upper a:hover{
+    color: rgb(255, 136, 0);
+}
+.container{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+ .navbar{
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav ul{
+    gap: 60px;
+    justify-content: center;
+ }
+ .search{
+    display: flex;
+    width: 300px;
+    /* gap: 200px; */
+    margin-right: 100px;
+    float: left;
+    /* margin-left: 280px; */
+ }
+ .search input{
+    background: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    color: rgb(49, 169, 19);
+    border: 1px solid rgb(255, 136, 0);
+     border-right: none;
+     margin-right: 0px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+ }
+ .btn{
+    width:80px;
+    margin-left: 0px;
+    height: 30px;
+    color: rgb(252, 254, 255);
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight: 500;
+    font-size: 14px;
+    background:rgb(255, 136, 0);
+    border: 2px solid rgb(255, 136, 0);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+ .search input:focus{
+    outline: none;
+ }
+
+    .btn:hover{
+        cursor: pointer;
+         color: rgb(0, 0, 0);
+    }
+ .main
+{
+    margin-top: 150px;
+}
+.main-left h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.main-left h1 span{
+    color: rgb(255, 136, 0);
+}
+.main-left{
+    width: 50%;
+    float: left;
+    margin-left: 100px;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-left p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.btn2:hover{
+    cursor: pointer;
+    background: rgb(169, 98, 17);
+    color: rgb(255, 255, 255);
+
+}
+
+ 
+
+/* CSS */
+.btn2 {
+  background: hwb(34 0% 0%);
+
+  border: 1px solid #ff8000;
+
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.btn2:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff7723;
+}
+
+.btn2:active {
+  opacity: .5;
+}
+.main-right{
+    position: relative;
+    width: 100px;
+    height: 100px;
+ }
+.form{
+    position: absolute;
+    
+     width: 400px;
+    height: 500px;
+    background: rgb(0, 0, 0);
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(255, 115, 0, 0.5);
+    border-radius: 10px;
+}
+.form-ed{
+    flex-direction: column;
+    gap: 60px;
+}
+.edit{
+    background: transparent;
+     font-size: 16px;
+     /* font-style: normal; */
+     font-weight: 500;
+     color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid #ff8000;
+    /* border-top, border-left,border-right :none ; */
+ 
+}
+.edit:focus{
+    outline: none;
+}
+.cen{
+    text-align: center;
+    align-items: center;
+}
+.form h2{
+    margin-bottom: 20px;
+}
+.form-btn{
+    width: 90%;
+    margin: 0 10px 0 10px;
+ }
+ ::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+ }
+ .icons ion-icon{
+    font-size: 30px;
+    /* background-color: aqua; */
+    padding-left: 20px;
+ }
+ .form-p
+{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+ 
